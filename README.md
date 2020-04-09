@@ -4,13 +4,13 @@ This project modifies a google AIY Voice Kit into a voice controlled DSLR rig. T
 
 The file structure is as below
 /home/pi/HDMI.sh<br />
-/etc/lirc/hardware.conf
-/etc/lirc/lircd.conf.d/lircd.conf
-/etc/lirc/lirc_options.conf
-/lib/systemd/system/lircd.service
-/lib/systemd/system/my_assistant.service
-/home/pi/png
-/home/pi/AIY-voice-kit-python/src/examples/voice/assistant_library_with_local_commands_remote.py
+/etc/lirc/hardware.conf<br />
+/etc/lirc/lircd.conf.d/lircd.conf<br />
+/etc/lirc/lirc_options.conf<br />
+/lib/systemd/system/lircd.service<br />
+/lib/systemd/system/my_assistant.service<br />
+/home/pi/png<br />
+/home/pi/AIY-voice-kit-python/src/examples/voice/assistant_library_with_local_commands_remote.py<br />
 
 
 
