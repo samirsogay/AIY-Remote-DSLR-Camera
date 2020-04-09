@@ -1,0 +1,12 @@
+[Unit]
+Description=My awesome assistant app
+
+[Service]
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+ExecStart=/bin/bash -c 'python3 -u assistant_library_with_local_commands_remote.py'
+WorkingDirectory=/home/pi/AIY-voice-kit-python/src/examples/voice
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
